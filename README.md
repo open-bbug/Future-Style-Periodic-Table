@@ -18,7 +18,7 @@
   </p>
 
   <h3>
-    👉 <a href="https://seanwong17.github.io/Future-Style-Periodic-Table/">點擊進入：沉浸式體驗 (Live Demo)</a> 👈
+    👉 <a href="https://open-bbug.github.io/Future-Style-Periodic-Table/">點擊進入：沉浸式體驗 (Live Demo)</a> 👈
   </h3>
 
   <h4>
@@ -159,7 +159,7 @@ Future-Style-Periodic-Table/
 
 ```bash
 # 複製專案
-git clone https://github.com/SeanWong17/Future-Style-Periodic-Table.git
+git clone https://github.com/open-bbug/Future-Style-Periodic-Table.git
 cd Future-Style-Periodic-Table
 
 # 安裝套件
@@ -222,7 +222,7 @@ npm run preview
 
 ## 📈 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=SeanWong17/Future-Style-Periodic-Table&type=Date)](https://star-history.com/#SeanWong17/Future-Style-Periodic-Table&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=open-bbug/Future-Style-Periodic-Table&type=Date)](https://star-history.com/#open-bbug/Future-Style-Periodic-Table&Date)
 
 ---
 <div align="center">

@@ -17,7 +17,7 @@
   </p>
 
   <h3>
-    👉 <a href="https://seanwong17.github.io/Future-Style-Periodic-Table/">Click to Enter: Immersive Experience (Live Demo)</a> 👈
+    👉 <a href="https://open-bbug.github.io/Future-Style-Periodic-Table/">Click to Enter: Immersive Experience (Live Demo)</a> 👈
   </h3>
 
   <h4>
@@ -146,7 +146,7 @@ Thanks to the pure static webpage design, this project has excellent portability
 ### Method 1: Direct Open (Recommended)
 1. **Download**: Clone or download the project archive
    ```bash
-   git clone https://github.com/SeanWong17/Future-Style-Periodic-Table.git
+   git clone https://github.com/open-bbug/Future-Style-Periodic-Table.git
    ```
 2. **Run**: Open `index.html` directly in a browser
 3. **Note**: No need to install Node.js, no need to configure a local server, ready to use out of the box
@@ -207,7 +207,7 @@ This project uses the [MIT License](LICENSE) open source license.
 
 ## 📈 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=SeanWong17/Future-Style-Periodic-Table&type=Date)](https://star-history.com/#SeanWong17/Future-Style-Periodic-Table&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=open-bbug/Future-Style-Periodic-Table&type=Date)](https://star-history.com/#open-bbug/Future-Style-Periodic-Table&Date)
 
 ---
 <div align="center">

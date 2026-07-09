@@ -8866,7 +8866,7 @@
       "color_hex": "#706fd3"
     },
     {
-      "name": "錞",
+      "name": "鐽",
       "appearance": null,
       "atomic_mass": 281,
       "boil": null,
@@ -8884,7 +8884,7 @@
       "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_110_darmstadtium/element_110_darmstadtium_srp_th.png",
       "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_110_darmstadtium/element_110_darmstadtium.glb",
       "spectral_img": null,
-      "summary": "錞是一種化學元素，符號為 Ds，原子序數為 110。它是一種放射性極強的合成元素。已知最穩定的同位素錞-281 的半衰期約為 10 秒。",
+      "summary": "鐽是一種化學元素，符號為 Ds，原子序數為 110。它是一種放射性極強的合成元素。已知最穩定的同位素鐽-281 的半衰期約為 10 秒。",
       "symbol": "Ds",
       "xpos": 10,
       "ypos": 7,
@@ -9130,7 +9130,7 @@
       "color_hex": "#33d9b2"
     },
     {
-      "name": "𬭟",
+      "name": "鈇",
       "appearance": null,
       "atomic_mass": 289,
       "boil": 420,
@@ -9148,7 +9148,7 @@
       "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_114_flerovium/element_114_flerovium_srp_th.png",
       "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_114_flerovium/element_114_flerovium.glb",
       "spectral_img": null,
-      "summary": "𬭟是一種超重人工化學元素，符號為 Fl，原子序數為 114。它是一種放射性極強的合成元素。該元素以俄羅斯杜布納聯合核研究所的弗廖羅夫核反應實驗室命名。",
+      "summary": "鈇是一種超重人工化學元素，符號為 Fl，原子序數為 114。它是一種放射性極強的合成元素。該元素以俄羅斯杜布納聯合核研究所的弗廖羅夫核反應實驗室命名。",
       "symbol": "Fl",
       "xpos": 14,
       "ypos": 7,
@@ -9261,7 +9261,7 @@
       "color_hex": "#33d9b2"
     },
     {
-      "name": "鏻",
+      "name": "鉝",
       "appearance": null,
       "atomic_mass": 293,
       "boil": 1085,
@@ -9279,7 +9279,7 @@
       "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_116_livermorium/element_116_livermorium_srp_th.png",
       "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_116_livermorium/element_116_livermorium.glb",
       "spectral_img": null,
-      "summary": "鏻是一種合成超重元素，符號為 Lv，原子序數為 116。它是一種極具放射性的元素，僅在實驗室中製造。該元素以美國的勞倫斯利弗莫爾國家實驗室命名。",
+      "summary": "鉝是一種合成超重元素，符號為 Lv，原子序數為 116。它是一種極具放射性的元素，僅在實驗室中製造。該元素以美國的勞倫斯利弗莫爾國家實驗室命名。",
       "symbol": "Lv",
       "xpos": 16,
       "ypos": 7,
@@ -9327,7 +9327,7 @@
       "color_hex": "#33d9b2"
     },
     {
-      "name": "鏌",
+      "name": "碽",
       "appearance": null,
       "atomic_mass": 294,
       "boil": 883,
@@ -9345,7 +9345,7 @@
       "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_117_tennessine/element_117_tennessine_srp_th.png",
       "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_117_tennessine/element_117_tennessine.glb",
       "spectral_img": null,
-      "summary": "鏌是一種超重人工化學元素，原子序數為 117，符號為 Ts。它是已知第二重的元素，也是週期表第 7 週期的倒數第二個元素。截至 2016 年，已觀察到 15 個鏌原子。",
+      "summary": "碽是一種超重人工化學元素，原子序數為 117，符號為 Ts。它是已知第二重的元素，也是週期表第 7 週期的倒數第二個元素。截至 2016 年，已觀察到 15 個碽原子。",
       "symbol": "Ts",
       "xpos": 17,
       "ypos": 7,
@@ -9394,7 +9394,7 @@
       "color_hex": "#218c74"
     },
     {
-      "name": "碽",
+      "name": "鿫",
       "appearance": null,
       "atomic_mass": 294,
       "boil": 350,
@@ -9412,7 +9412,7 @@
       "bohr_model_image": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_118_oganesson/element_118_oganesson_srp_th.png",
       "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_118_oganesson/element_118_oganesson.glb",
       "spectral_img": null,
-      "summary": "碽是 IUPAC 對原子序數為 118、元素符號為 Og 的超錒系元素的命名。在元素週期表中，它是一個 p 區元素，也是第 7 週期的最後一個元素。碽目前是第 18 族中唯一的合成成員。",
+      "summary": "鿫是 IUPAC 對原子序數為 118、元素符號為 Og 的超錒系元素的命名。在元素週期表中，它是一個 p 區元素，也是第 7 週期的最後一個元素。鿫目前是第 18 族中唯一的合成成員。",
       "symbol": "Og",
       "xpos": 18,
       "ypos": 7,

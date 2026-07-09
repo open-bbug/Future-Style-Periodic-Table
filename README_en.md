@@ -20,6 +20,10 @@
     👉 <a href="https://seanwong17.github.io/Future-Style-Periodic-Table/">Click to Enter: Immersive Experience (Live Demo)</a> 👈
   </h3>
 
+  <h4>
+    📖 <a href="README.md">繁體中文 (台灣)</a> | <a href="README_zh-CN.md">简体中文</a>
+  </h4>
+
 </div>
 
 ---
@@ -120,7 +124,8 @@ Future-Style-Periodic-Table/
 ├── index.html               # Entry file
 ├── .editorconfig            # Editor configuration
 ├── .gitignore               # Git ignore rules
-├── README.md                # Chinese documentation
+├── README.md                # Traditional Chinese (Taiwan) documentation
+├── README_zh-CN.md          # Simplified Chinese documentation
 ├── README_en.md             # English documentation
 └── LICENSE                  # MIT License
 ```

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
@@ -10,11 +10,11 @@
 
     <div class="bg-animation"></div>
 
-    <div class="rotate-hint" id="rotate-hint">💡 横屏查看效果更佳</div>
+    <div class="rotate-hint" id="rotate-hint">💡 橫向螢幕檢視效果更佳</div>
 
     <div class="control-panel">
         <div class="title-box">
-            <h1 id="main-title">元素周期表</h1>
+            <h1 id="main-title">元素週期表</h1>
             <a href="https://github.com/SeanWong17/Future-Style-Periodic-Table" 
             target="_blank" 
             class="github-silent-link" 
@@ -26,12 +26,12 @@
         </div>
         
         <div class="mode-group">
-            <button class="mode-btn active" data-mode="default" id="mode-standard">标准</button>
-            <button class="mode-btn" data-mode="radius" id="mode-radius">半径</button>
-            <button class="mode-btn" data-mode="en" id="mode-electronegativity">电负性</button>
-            <button class="mode-btn" data-mode="ip" id="mode-ionization">电离能</button>
-            <button class="mode-btn" data-mode="melt" id="mode-melting">熔点</button>
-            <button class="mode-btn" data-mode="boil" id="mode-boiling">沸点</button>
+            <button class="mode-btn active" data-mode="default" id="mode-standard">標準</button>
+            <button class="mode-btn" data-mode="radius" id="mode-radius">半徑</button>
+            <button class="mode-btn" data-mode="en" id="mode-electronegativity">電負度</button>
+            <button class="mode-btn" data-mode="ip" id="mode-ionization">游離能</button>
+            <button class="mode-btn" data-mode="melt" id="mode-melting">熔點</button>
+            <button class="mode-btn" data-mode="boil" id="mode-boiling">沸點</button>
             <button class="mode-btn" data-mode="density" id="mode-density">密度</button>
         </div>
 
@@ -41,7 +41,7 @@
         </div>
 
         <div class="search-box">
-            <input type="text" id="searchInput" placeholder="查找元素...">
+            <input type="text" id="searchInput" placeholder="搜尋元素...">
         </div>
     </div>
 
@@ -66,47 +66,47 @@
                     </svg>
                 </button>
                 <div class="atom-container" id="atomContainer"></div>
-                <div class="visualizer-hint" id="visualizer-hint">拖拽旋转视角</div>
+                <div class="visualizer-hint" id="visualizer-hint">拖曳旋轉視角</div>
             </div>
             
-            <!-- 右侧：信息面板 -->
+            <!-- 右側：信息面板 -->
             <div class="info-panel">
-                <!-- 头部信息 -->
+                <!-- 頭部信息 -->
                 <div class="header-row">
                     <div class="big-symbol" id="m-symbol">Fe</div>
                     <div class="header-details">
                         <div class="big-name">
-                            <span id="m-name">铁</span>
+                            <span id="m-name">鐵</span>
                             <span id="m-en-name" class="en-name">Iron</span>
                         </div>
                         <div class="header-meta">
-                            <span class="category-tag" id="m-cat">过渡金属</span>
-                            <span class="phase-tag" id="m-phase">固体</span>
+                            <span class="category-tag" id="m-cat">過渡金屬</span>
+                            <span class="phase-tag" id="m-phase">固體</span>
                             <span class="block-tag" id="m-block">d</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- 简介 -->
+                <!-- 簡介 -->
                 <div class="summary-box" id="m-summary-box">
                     <p id="m-summary"></p>
                 </div>
 
-                <!-- 标签页导航 -->
+                <!-- 標籤頁導覽 -->
                 <div class="tab-nav">
-                    <button class="tab-btn active" id="tab-basic">基础</button>
+                    <button class="tab-btn active" id="tab-basic">基礎</button>
                     <button class="tab-btn" id="tab-physical">物理</button>
-                    <button class="tab-btn" id="tab-chemical">化学</button>
-                    <button class="tab-btn" id="tab-history">历史</button>
-                    <button class="tab-btn" id="tab-media">媒体</button>
+                    <button class="tab-btn" id="tab-chemical">化學</button>
+                    <button class="tab-btn" id="tab-history">歷史</button>
+                    <button class="tab-btn" id="tab-media">多媒體</button>
                 </div>
 
-                <!-- 标签页内容 -->
+                <!-- 標籤頁內容 -->
                 <div class="tab-content">
-                    <!-- 基础信息 -->
+                    <!-- 基礎資訊 -->
                     <div class="tab-pane active" id="pane-basic">
                         <div class="info-section">
-                            <h3 id="electron-config-label">电子排布</h3>
+                            <h3 id="electron-config-label">電子排列</h3>
                             <div class="config-box">
                                 <div class="config-text" id="m-config"></div>
                                 <div class="config-semantic" id="m-config-semantic"></div>
@@ -115,68 +115,68 @@
                         </div>
 
                         <div class="info-section">
-                            <h3 id="valence-label">常见化合价</h3>
+                            <h3 id="valence-label">常見價數</h3>
                             <div class="valence-tags" id="m-valence"></div>
                         </div>
 
                         <div class="info-section">
-                            <h3 id="isotopes-label">同位素 (● 稳定)</h3>
+                            <h3 id="isotopes-label">同位素（● 穩定）</h3>
                             <div class="isotope-tags" id="m-isotopes"></div>
                         </div>
 
                         <div class="info-section">
-                            <h3 id="position-label">周期表位置</h3>
+                            <h3 id="position-label">週期表位置</h3>
                             <div class="props-grid props-grid-4">
-                                <div class="prop-item"><label id="period-label">周期</label><span id="m-period">4</span></div>
+                                <div class="prop-item"><label id="period-label">週期</label><span id="m-period">4</span></div>
                                 <div class="prop-item"><label id="group-label">族</label><span id="m-group">8</span></div>
-                                <div class="prop-item"><label id="block-label">区块</label><span id="m-block-val">d</span></div>
-                                <div class="prop-item"><label id="atomic-num-label">原子序数</label><span id="m-num">26</span></div>
+                                <div class="prop-item"><label id="block-label">區塊</label><span id="m-block-val">d</span></div>
+                                <div class="prop-item"><label id="atomic-num-label">原子序</label><span id="m-num">26</span></div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- 物理性质 -->
+                    <!-- 物理性質 -->
                     <div class="tab-pane" id="pane-physical">
                         <div class="info-section">
-                            <h3 id="appearance-label">外观</h3>
+                            <h3 id="appearance-label">外觀</h3>
                             <p class="appearance-text" id="m-appearance"></p>
                         </div>
 
                         <div class="info-section">
-                            <h3 id="physical-props-label">物理性质</h3>
+                            <h3 id="physical-props-label">物理性質</h3>
                             <div class="props-grid">
-                                <div class="prop-item"><label id="atomic-mass-label">相对原子质量</label><span id="m-mass">55.845</span></div>
-                                <div class="prop-item"><label id="atomic-radius-label">原子半径 (pm)</label><span id="m-radius">126</span></div>
+                                <div class="prop-item"><label id="atomic-mass-label">相對原子質量（原子量）</label><span id="m-mass">55.845</span></div>
+                                <div class="prop-item"><label id="atomic-radius-label">原子半徑 (pm)</label><span id="m-radius">126</span></div>
                                 <div class="prop-item"><label id="density-label">密度 (g/cm³)</label><span id="m-density">7.874</span></div>
-                                <div class="prop-item"><label id="melting-point-label">熔点 (K)</label><span id="m-melt">1811</span></div>
-                                <div class="prop-item"><label id="boiling-point-label">沸点 (K)</label><span id="m-boil">3134</span></div>
-                                <div class="prop-item"><label id="molar-heat-label">摩尔热容 (J/mol·K)</label><span id="m-molar-heat">25.1</span></div>
+                                <div class="prop-item"><label id="melting-point-label">熔點 (K)</label><span id="m-melt">1811</span></div>
+                                <div class="prop-item"><label id="boiling-point-label">沸點 (K)</label><span id="m-boil">3134</span></div>
+                                <div class="prop-item"><label id="molar-heat-label">莫耳熱容量 (J/mol·K)</label><span id="m-molar-heat">25.1</span></div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- 化学性质 -->
+                    <!-- 化學性質 -->
                     <div class="tab-pane" id="pane-chemical">
                         <div class="info-section">
-                            <h3 id="chemical-props-label">化学性质</h3>
+                            <h3 id="chemical-props-label">化學性質</h3>
                             <div class="props-grid">
-                                <div class="prop-item"><label id="electronegativity-label">电负性 (鲍林)</label><span id="m-en">1.83</span></div>
-                                <div class="prop-item"><label id="electron-affinity-label">电子亲和能 (kJ/mol)</label><span id="m-ea">15.7</span></div>
+                                <div class="prop-item"><label id="electronegativity-label">電負度（鮑林）</label><span id="m-en">1.83</span></div>
+                                <div class="prop-item"><label id="electron-affinity-label">電子親和力 (kJ/mol)</label><span id="m-ea">15.7</span></div>
                             </div>
                         </div>
 
                         <div class="info-section">
-                            <h3 id="ionization-energies-label">电离能 (kJ/mol)</h3>
+                            <h3 id="ionization-energies-label">游離能 (kJ/mol)</h3>
                             <div class="ionization-list" id="m-ionization-list"></div>
                         </div>
                     </div>
 
-                    <!-- 历史发现 -->
+                    <!-- 歷史發現 -->
                     <div class="tab-pane" id="pane-history">
                         <div class="info-section">
-                            <h3 id="discovery-label">发现</h3>
+                            <h3 id="discovery-label">發現</h3>
                             <div class="history-item">
-                                <label id="discovered-by-label">发现者</label>
+                                <label id="discovered-by-label">發現者</label>
                                 <span id="m-discovered-by">—</span>
                             </div>
                             <div class="history-item">
@@ -186,7 +186,7 @@
                         </div>
 
                         <div class="info-section">
-                            <h3 id="source-label">参考资料</h3>
+                            <h3 id="source-label">參考資料</h3>
                             <a class="source-link" id="m-source" href="#" target="_blank">
                                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
@@ -198,11 +198,11 @@
                         </div>
                     </div>
 
-                    <!-- 媒体资源 -->
+                    <!-- 媒體資源 -->
                     <div class="tab-pane" id="pane-media">
-                        <!-- 实物图片 -->
+                        <!-- 實物照片 -->
                         <div class="info-section">
-                            <h3 id="image-label">实物图片</h3>
+                            <h3 id="image-label">實物照片</h3>
                             <div class="media-container" id="image-container">
                                 <button class="load-media-btn" id="load-image-btn">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -210,7 +210,7 @@
                                         <circle cx="8.5" cy="8.5" r="1.5"/>
                                         <polyline points="21 15 16 10 5 21"/>
                                     </svg>
-                                    <span id="load-image-text">加载实物图片</span>
+                                    <span id="load-image-text">載入實物照片</span>
                                 </button>
                                 <div class="image-display" id="image-display" style="display:none;">
                                     <img id="element-image" src="" alt="">
@@ -219,9 +219,9 @@
                             </div>
                         </div>
 
-                        <!-- 玻尔模型图片 -->
+                        <!-- 波耳模型圖片 -->
                         <div class="info-section">
-                            <h3 id="bohr-image-label">玻尔模型图</h3>
+                            <h3 id="bohr-image-label">波耳模型圖</h3>
                             <div class="media-container" id="bohr-image-container">
                                 <button class="load-media-btn" id="load-bohr-image-btn">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -229,7 +229,7 @@
                                         <circle cx="12" cy="12" r="6"/>
                                         <circle cx="12" cy="12" r="2"/>
                                     </svg>
-                                    <span id="load-bohr-image-text">加载玻尔模型图</span>
+                                    <span id="load-bohr-image-text">載入波耳模型圖</span>
                                 </button>
                                 <div class="image-display" id="bohr-image-display" style="display:none;">
                                     <img id="bohr-image" src="" alt="">
@@ -242,20 +242,20 @@
         </div>
     </div>
 
-    <!-- 放大原子视图弹窗 -->
+    <!-- 放大原子視圖彈窗 -->
     <div class="expanded-atom-overlay" id="expandedAtomModal">
         <div class="expanded-atom-card">
             <span class="close-btn">&times;</span>
             <div class="expanded-atom-header">
                 <span class="expanded-atom-symbol" id="expanded-symbol">Fe</span>
-                <span class="expanded-atom-name" id="expanded-name">铁 Iron</span>
+                <span class="expanded-atom-name" id="expanded-name">鐵 Iron</span>
             </div>
             <div class="expanded-atom-wrapper" id="expandedAtomWrapper">
                 <div class="expanded-atom-container" id="expandedAtomContainer"></div>
             </div>
             <div class="expanded-atom-info">
                 <div class="shell-legend" id="expanded-shell-legend"></div>
-                <div class="expanded-hint" id="expanded-hint">拖拽旋转 · 滚轮缩放</div>
+                <div class="expanded-hint" id="expanded-hint">拖曳旋轉 · 滾輪縮放</div>
             </div>
         </div>
     </div>

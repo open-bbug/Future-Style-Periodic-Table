@@ -58,8 +58,8 @@ export function toggleCategory(catId: number, btn: HTMLElement): void {
         const nameEl = el.querySelector('.name');
         const text = nameEl?.textContent || '';
         const isRelated =
-          (catId === 8 && (text.includes('镧') || text.includes('Lanthan'))) ||
-          (catId === 9 && (text.includes('锕') || text.includes('Actin')));
+          (catId === 8 && (text.includes('鑭') || text.includes('Lanthan'))) ||
+          (catId === 9 && (text.includes('錒') || text.includes('Actin')));
         el.style.opacity = isRelated ? '1' : '0.3';
       }
     });

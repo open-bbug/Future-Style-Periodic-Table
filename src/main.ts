@@ -16,7 +16,7 @@ function setLanguage(lang: 'zh' | 'en'): void {
 
   document.getElementById('lang-zh')!.classList.toggle('active', lang === 'zh');
   document.getElementById('lang-en')!.classList.toggle('active', lang === 'en');
-  document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
+  document.documentElement.lang = lang === 'zh' ? 'zh-TW' : 'en';
 
   updateUILanguage();
   renderTable();

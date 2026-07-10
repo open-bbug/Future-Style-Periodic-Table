@@ -24,3 +24,5 @@ npm-debug.log*
 # 构建输出（如果将来添加构建工具）
 dist/
 build/
+.worktrees/
+
